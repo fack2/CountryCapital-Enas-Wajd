@@ -12,6 +12,10 @@ This project is an extension to our last project which is Country search , here 
 
 ### User journey 
 
+1. A user should be able to enter a country name into the input box.
+2. A user should see an autocomplete as he type .
+3. The name of country will appear with its flag .
+
 ### File structure 
 
 ### Team members 

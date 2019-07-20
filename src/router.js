@@ -6,10 +6,10 @@ const router = (request, response) => {
 	} else if (url.split('.')[1]) {
 		// console.log("hello");
 		publicHandler(request, response, url);
-	} else if (url.indexOf('/search/') !== -1) {
+	} else if (url.includes('/search/')) {
 		searchHandler(request, response, url);
 	} 
-	else if (url.indexOf('/capital/') !== -1) {
+	else if (url.includes('/capital/')) {
 		console.log("her");
 		capitalSearch(request, response, url);
 	} 

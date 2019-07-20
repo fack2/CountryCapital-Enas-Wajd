@@ -50,7 +50,7 @@ countryInput.addEventListener('keyup', function() {
 			var node = document.createElement('LI');
 var codee = data.filteredData[i].code ;  
 var capital ; 
-request(`/capital/${code}`, (data) => {
+request(`/capital/${codee}`, (data) => {
 			
 	if (data.capitel!== undefined) {
 		capital = data.capitel;
